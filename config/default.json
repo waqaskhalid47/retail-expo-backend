@@ -1,0 +1,4 @@
+{
+  "db": "mongodb+srv://nouman:loveisislam12@cluster0.1ywqx.mongodb.net/mongoDB0?retryWrites=true&w=majority",
+  "jwtprivatekey": "key"
+}
