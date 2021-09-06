@@ -1,4 +1,4 @@
-# final-app
+# retail-expo
 
 Admin credentials:
 Username: admin@gmail.com

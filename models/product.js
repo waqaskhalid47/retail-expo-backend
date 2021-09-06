@@ -12,11 +12,11 @@ var Product = mongoose.model("Product", productSchema);
 
 function validateProduct(data) {
   const schema = Joi.object({
-    title: Joi.string().min(3).max(100).required(),
     price: Joi.number().min(0).required(),
+    title: Joi.string().min(3).max(100).required(),
     inStock: Joi.number().min(0).required(),
-    category: Joi.string().min(3).max(20).required(),
     description: Joi.string().min(3).max(1000).required(),
+    category: Joi.string().min(3).max(20).required(),
     productImage: Joi.string().min(3).max(1000).required(),
   });
   return schema.validate(data, { abortEarly: false });
